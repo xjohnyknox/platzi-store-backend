@@ -8,7 +8,7 @@
     "start": "node src/index.js"
   },
   "keywords": [],
-  "author": "Oscar Barajas <oscar@platzi.com>",
+  "author": "Johny Jiménez <xjohnyx@pm.me>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
