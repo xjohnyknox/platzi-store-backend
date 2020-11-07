@@ -20,11 +20,8 @@ notifications:
     on_failure: always #Cuando este falle, envia correo
 
 #ahora integrando con slack la notificación:
-  slack: 
-  
-  #yo aqui cifre el token con el cliente de travis:
-      secure: BUGL7fxqa/CJ2y54vA//hvpJQ4go3LQ6Pi3ORmADwrM5rM7Umwc3lyC/X0H1zB42sGV7UKQPJql3MSYk7O+6PaRmdrpFrdzSGaaptc9C9tKlrXJZ6VM1mHncIbg9SKy3ZqtdiNsPT75TiO5BF/LbAPrC0SmA6JJAafXujEMf0BPRW6NNT29jGec3X/QNKP2vNGTgj2OBT8rNNDpIEXfpP7zXxgQoH4fhxM8B0p5pRyeVJTISyrxtO83cSuljuzfs9FrmUSQXv0u36/QEaxW8in9Vr1c21DCWlqzdryAbvnN3mQ8BbwBz9X1RNTwn/Qn5aBnevgeNHLcPmKvE2kSuNqOs/u2PRXlD4YlQWjD0Fko3hvqUhHIp2qSDk721aDmhc0/m6nd0kQji8mFlStmdzMTfYUGyWcP0zGfnm6MsluTyZAUC3anlPPnKqJqgjr3sgmmAo7GF3Dhqo7MHmIWOndTj6tDxNUa+WIQc329IRHy+DSBxD+K9t6Mn/ivaoirF1l8SIuc1R7KahgaNryoq54j7Px3juO9xp9Jq9NkZk6/48a8GAAlIw1RjbxiTkkyc09Mds7MZpwdsajLV2dRAhu1E9H+RHLV3yfVB8XnUiK8O8xAyPMQ0RFg3E9N6iU8DWskprG+q9cXTsCUACFhU/RlUl6ucDOlvr1ks9MgG/z0=
-
+  slack:
+    tuopenmind:HkbiqncilaJeGCNCQP76Ou05
 #ahora genero el deploy:
 deploy:
   provide: heroku #esta vez el proveedor es heroku
