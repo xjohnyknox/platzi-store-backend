@@ -21,13 +21,14 @@ notifications:
 
 #ahora integrando con slack la notificación:
   slack:
-    tuopenmind:HkbiqncilaJeGCNCQP76Ou05
+    secure: "oJyEZpFsGlGNoxiqvX9W8KQVvU74eEoeYZyyZqTTMYRUE8SqwKkGpWv1809NW+k2pFK8qhT3Yyg9Xe2QITrc3+Mt3t7iCaRnASyQ1PdBe4dvAup9mN5qtuj2+XXuBeqdBziY2axn+VIuPxx4InJ0P9XrE4jhwveDJybcVDQ/JzVnhiL6a0DBRAYfLf+RHiv1In7nzlL+Csr8d2EJl5ofxWI0nIVhlUslFsDR/uD0dOz1i0ejIAtebNAMuZI6jRW7PnhBwAiLu0d3w+Oo10MlZDroP0fy1vtdspcm474eCopCL7gWC30smIcJGq8QQFf6cqq2umJXykMJeDOCESKsMFhGUKQEYjWSVusWOLvL/FIx5jRZY6WOTfxlAH7t9Ecz5YB7QDNg2DWq0bZs6YJ3SvDBSQryVeV+aJyqfo6Jzo96hs1YAgmZCDWbQIxk1FTOkrxEZZvrTWVtL+naPIkbqYHGuqhj7d7S/kAT6nTOBb+8A5kfWe7+hVmD7SwuShLMgUzvFOiUi/h7h+UcNdJnujZTDhpbhwdwXqL1cRTnTaQTQzTo0rmn/WdHJlZhdAD5fGpH/OqBiT3mXG7s62GILBxLlYIUWLRRzDHCDqlhlaT6Lm1HCODM/XS9SgJoKy10/Z8t/5P1IyEfBIt8gX4IQvKE0l0J2YbqhcoGOR+MuFA="
 #ahora genero el deploy:
 deploy:
   provide: heroku #esta vez el proveedor es heroku
   skip-cleanup: true
   keep-history: true
-  api_key: 56e03f94-4c40-479b-b421-47469a8b95f5
+  api_key: 
+    secure: "chQAuVsUCLfKxh8l/mNJIxEsqDVjRJt9Nqpy6QtZhqcPNTpWQrNcIDgDrzeglgGC7zUKwfLfKVbfavmIWlrr2rpLSMI822+ulzTI3aXvsLSePVnBJVu1dNapyq8HnjSral19CqUAME42BtZbSO+ZSCsmEFBZmBilvLLp25PaOE7FFEmscR3g+hUTjCrJpoT3eu8719nOivFZ5CxnXIS1GXs2MDgZmpbVH1k8VmVm9qW/QfJGw2OJ8jcg2Dbk2KTEDVzMhhieOikCgkz28z4LHEthy6it3/8fZWixad5pD6owqgw/k8u98IAw2hGDR3OytxQ/qgRaPaG0n7wQtdfXo6BhtTdYC9BVsiCNmNYPAB7kgxRySHodbVfDXU/RbMXlZtSQCR+iu9ksbRKmrLc1EzEJgt46KatBsQuaQAOHWNlWZMyvAiDDPz0u8cJvbByv3tJ2BHQchMxd9FgnaKfhet9FobxwEENemfk4bkbu0C1GS/k68fgbIpHkXu9IdlNI8QdtxDKEFZLpicCp3JmssdKTd1zsuVvWodSi9BRyIg+vD+Lru+GbGPVewW13duOludd6zfY8agUtChVhtlel9rQgdKRb7PUmGnsZguyxfPg5aBfcWGxDfLKjHgp7su61spZ1Q+1wcAWoBFBIezo2sWuDkRkIc7m5tqck96s5m1s="
   app: platzi-store-bknd #este es el nombre de la app en heroku tal cual
   on:
     repo: xjohnyknox/platzi-store-backend
